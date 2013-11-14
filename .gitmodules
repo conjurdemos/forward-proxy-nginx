@@ -1,0 +1,3 @@
+[submodule "conjur"]
+	path = conjur
+	url = git@github.com:conjurinc/nginx-lua.git
