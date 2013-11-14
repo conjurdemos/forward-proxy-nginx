@@ -7,9 +7,9 @@ if [[ ! -e /usr/local/nginx ]] ; then
 fi
 
 # This is important!
-cp /home/vagrant/.netrc /root/.netrc
+cp /vagrant/.netrc /root/.netrc
 
-ln -sf /home/vagrant/nginx.conf /usr/local/nginx/conf/nginx.conf
+ln -sf /vagrant/nginx.conf /usr/local/nginx/conf/nginx.conf
 service nginx start
 
 su vagrant
